@@ -96,7 +96,7 @@ class ProyectoServiceTest {
            proyectoService.crear(proyecto);
         });
 
-        assertEquals("La Fecha fin debe ser mayor a Fecha Inicio", exception.getMessage());
+        assertEquals("La fecha de fin debe ser mayor a la fecha de inicio", exception.getMessage());
 
     }
 }
