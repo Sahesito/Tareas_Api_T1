@@ -1,0 +1,57 @@
+// Usuarios
+
+  {
+    "nombre": "Sahesito",
+    "email": "sahe@gmail.com",
+    "activo": true,
+    "rol": "USER"
+  },
+  {
+    "nombre": "Erwin Marchan",
+    "email": "mar.sosaer5@gmail.com",
+    "activo": true,
+    "rol": "ADMIN"
+  }
+
+
+// Proyectos
+
+  {
+    "nombre": "Sistema de Gestion",
+    "descripcion": "Sistema web para gestion de tareas y proyectos",
+    "fechaInicio": "2025-11-26",
+    "fechaFin": "2025-11-27",
+    "usuario": {
+      "id": 1
+    }
+  },
+  {
+    "nombre": "App Mobile",
+    "descripcion": "Aplicación móvil para control de inventarios",
+    "fechaInicio": "2025-02-01",
+    "fechaFin": "2025-08-31",
+    "usuario": {
+      "id": 2
+    }
+  }
+
+// Tareas
+
+  {
+    "titulo": "Diseño de base de datos",
+    "descripcion": "Crear el modelo entidad-relación y implementar la base de datos",
+    "estado": "EN_PROGRESO",
+    "prioridad": "ALTA",
+    "proyecto": {
+      "id": 1
+    }
+  },
+  {
+    "titulo": "Implementar API REST",
+    "descripcion": "Desarrollar los endpoints principales de la API",
+    "estado": "PENDIENTE",
+    "prioridad": "MEDIA",
+    "proyecto": {
+      "id": 1
+    }
+  }
