@@ -98,3 +98,4 @@ class TareaServiceTest {
         assertEquals("Proyecto no encontrado", exception.getMessage());
     }
 }
+
